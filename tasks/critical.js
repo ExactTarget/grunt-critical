@@ -9,7 +9,7 @@
 'use strict';
 
 module.exports = function (grunt) {
-    var critical = require('critical');
+    var critical = require('exact-critical');
     var path = require('path');
     var async = require('async');
     var extend = require('util')._extend;
